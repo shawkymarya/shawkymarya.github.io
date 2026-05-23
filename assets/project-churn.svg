@@ -1,0 +1,38 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="42" fill="#091019"/>
+  <rect x="44" y="44" width="1112" height="672" rx="34" fill="url(#bg)"/>
+  <circle cx="962" cy="158" r="120" fill="url(#glow)" opacity="0.84"/>
+  <rect x="82" y="86" width="330" height="72" rx="22" fill="#0F2335" stroke="#183B54"/>
+  <text x="122" y="134" fill="#4BBCFF" font-size="40" font-family="Arial, sans-serif" font-weight="700">Customer Churn</text>
+  <rect x="102" y="206" width="996" height="432" rx="30" fill="#091623" stroke="#1B3952"/>
+  <rect x="164" y="274" width="192" height="228" rx="28" fill="#12283B" stroke="#244A68"/>
+  <circle cx="260" cy="336" r="40" fill="#E4F7FF"/>
+  <rect x="206" y="394" width="108" height="62" rx="20" fill="#E4F7FF"/>
+  <rect x="398" y="274" width="192" height="228" rx="28" fill="#14314A" stroke="#4BBCFF"/>
+  <circle cx="494" cy="336" r="40" fill="#E4F7FF"/>
+  <rect x="440" y="394" width="108" height="62" rx="20" fill="#E4F7FF"/>
+  <rect x="632" y="274" width="192" height="228" rx="28" fill="#12283B" stroke="#244A68"/>
+  <circle cx="728" cy="336" r="40" fill="#E4F7FF"/>
+  <rect x="674" y="394" width="108" height="62" rx="20" fill="#E4F7FF"/>
+  <rect x="804" y="248" width="176" height="208" rx="28" fill="#2F1122" stroke="#F53A94" stroke-width="8"/>
+  <circle cx="892" cy="308" r="38" fill="#FCE6F1"/>
+  <rect x="842" y="362" width="100" height="58" rx="18" fill="#FCE6F1"/>
+  <path d="M990 378H1078" stroke="#F53A94" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1042 334L1092 378L1042 422" stroke="#F53A94" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="826" y="500" width="236" height="86" rx="24" fill="#10283B" stroke="#22435F"/>
+  <text x="864" y="548" fill="#F8FCFF" font-size="28" font-family="Arial, sans-serif" font-weight="700">Retention Score</text>
+  <rect x="866" y="560" width="148" height="12" rx="6" fill="#17344C"/>
+  <rect x="866" y="560" width="102" height="12" rx="6" fill="#4BBCFF"/>
+  <rect x="848" y="154" width="188" height="64" rx="20" fill="#3A132A" stroke="#5D2242"/>
+  <text x="890" y="196" fill="#FDF6FA" font-size="30" font-family="Arial, sans-serif" font-weight="700">KNN Signals</text>
+  <defs>
+    <linearGradient id="bg" x1="124" y1="80" x2="1104" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091C2E"/>
+      <stop offset="1" stop-color="#0A121A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(962 158) rotate(90) scale(120)">
+      <stop stop-color="#F53A94" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#F53A94" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
