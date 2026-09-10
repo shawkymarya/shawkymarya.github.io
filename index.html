@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shawky Marya | Data Analyst &amp; Data Scientist</title>
+    <meta
+      name="description"
+      content="Portfolio of Shawky Marya, a Data Analyst and Intelligent Data Science student combining Data Analytics, Business Intelligence, SQL, Data Science, and Machine Learning."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true" width="0" height="0">
+      <symbol id="icon-home" viewBox="0 0 24 24">
+        <path d="M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" />
+      </symbol>
+      <symbol id="icon-user" viewBox="0 0 24 24">
+        <path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm-7 8a7 7 0 0 1 14 0" />
+      </symbol>
+      <symbol id="icon-layers" viewBox="0 0 24 24">
+        <path d="m12 4 8 4-8 4-8-4zm-8 8 8 4 8-4m-16 4 8 4 8-4" />
+      </symbol>
+      <symbol id="icon-folder" viewBox="0 0 24 24">
+        <path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      </symbol>
+      <symbol id="icon-brain" viewBox="0 0 24 24">
+        <path d="M9 5a3 3 0 0 1 6 0 3 3 0 0 1 3 3v8a3 3 0 0 1-3 3h-1v-4h-4v4H9a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3z" />
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <path d="M4 6h16v12H4z" />
+        <path d="m4 8 8 6 8-6" />
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path d="M6.7 4h2.7l1.1 4-2 1.8a17 17 0 0 0 5.7 5.7l1.8-2 4 1.1v2.7a2 2 0 0 1-2.2 2A17.8 17.8 0 0 1 4 6.2 2 2 0 0 1 6.7 4z" />
+      </symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M12 3a9 9 0 0 0-2.8 17.6v-3.1c-3.1.7-3.8-1.3-3.8-1.3a3 3 0 0 0-1.3-1.7c-1.1-.8.1-.8.1-.8a2.4 2.4 0 0 1 1.8 1.2 2.4 2.4 0 0 0 3.2 1 2.4 2.4 0 0 1 .7-1.5c-2.5-.3-5.2-1.2-5.2-5.6a4.5 4.5 0 0 1 1.2-3.1 4.2 4.2 0 0 1 .1-3.1s1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2a4.2 4.2 0 0 1 .1 3.1 4.5 4.5 0 0 1 1.2 3.1c0 4.4-2.7 5.3-5.2 5.6a2.7 2.7 0 0 1 .8 2.1v3.1A9 9 0 0 0 12 3z" />
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path d="M6.5 8.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 10h3v9H5zm5 0h2.9v1.2h.1a3.1 3.1 0 0 1 2.8-1.5c3 0 3.5 2 3.5 4.5V19h-3v-4c0-.9 0-2.1-1.3-2.1S13 14 13 15v4h-3z" />
+      </symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v3m0 14v3M4.9 4.9l2.1 2.1m9.9 9.9 2.1 2.1M2 12h3m14 0h3M4.9 19.1 7 17m9.9-9.9 2.1-2.2" />
+      </symbol>
+      <symbol id="icon-moon" viewBox="0 0 24 24">
+        <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4 7 7 0 0 0 20 14.5z" />
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+        <path d="M5 12h14m-5-5 5 5-5 5" />
+      </symbol>
+      <symbol id="icon-bar" viewBox="0 0 24 24">
+        <path d="M5 19V9m7 10V5m7 14v-8" />
+      </symbol>
+      <symbol id="icon-network" viewBox="0 0 24 24">
+        <path d="M6 6h4v4H6zm8 0h4v4h-4zM10 14h4v4h-4zM8 10v4m8-4-4 4m-4 0 4-4" />
+      </symbol>
+      <symbol id="icon-database" viewBox="0 0 24 24">
+        <ellipse cx="12" cy="5.5" rx="7" ry="2.5" />
+        <path d="M5 5.5v5c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-5" />
+        <path d="M5 10.5v5c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-5" />
+      </symbol>
+    </svg>
+
+    <div class="preloader" aria-hidden="true">
+      <p class="preloader__name">SHAWKY MARYA</p>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true">
+      <span class="scroll-progress__bar"></span>
+    </div>
+
+    <nav class="side-rail" aria-label="Section shortcuts">
+      <a class="side-rail__link active" href="#hero" data-target="hero" aria-label="Hero">
+        <svg viewBox="0 0 24 24"><use href="#icon-home"></use></svg>
+      </a>
+      <a class="side-rail__link" href="#about" data-target="about" aria-label="About">
+        <svg viewBox="0 0 24 24"><use href="#icon-user"></use></svg>
+      </a>
+      <a class="side-rail__link" href="#services" data-target="services" aria-label="Services">
+        <svg viewBox="0 0 24 24"><use href="#icon-layers"></use></svg>
+      </a>
+      <a class="side-rail__link" href="#projects" data-target="projects" aria-label="Projects">
+        <svg viewBox="0 0 24 24"><use href="#icon-folder"></use></svg>
+      </a>
+      <a class="side-rail__link" href="#skills" data-target="skills" aria-label="Skills">
+        <svg viewBox="0 0 24 24"><use href="#icon-brain"></use></svg>
+      </a>
+      <a class="side-rail__link" href="#contact" data-target="contact" aria-label="Contact">
+        <svg viewBox="0 0 24 24"><use href="#icon-mail"></use></svg>
+      </a>
+    </nav>
+
+    <button class="theme-toggle" type="button" aria-label="Toggle theme">
+      <svg class="theme-toggle__sun" viewBox="0 0 24 24"><use href="#icon-sun"></use></svg>
+      <svg class="theme-toggle__moon" viewBox="0 0 24 24"><use href="#icon-moon"></use></svg>
+    </button>
+
+    <a class="floating-contact" href="#contact">
+      <img class="floating-contact__avatar" src="./assets/myphoto.jpeg" alt="Shawky Marya" />
+      <span class="floating-contact__text">Contact</span>
+    </a>
+
+    <main>
+      <section class="hero section" id="hero" data-section="hero">
+        <div class="container">
+          <div class="hero__top reveal">
+            <p class="eyebrow">Portfolio / Intelligent Data Science</p>
+            <h1 class="hero__name">
+              <span>SHAWKY</span>
+              <span>MARYA</span>
+            </h1>
+            <div class="hero__labels">
+              <span>DATA ANALYST</span>
+              <span>DATA SCIENTIST</span>
+            </div>
+          </div>
+
+          <div class="section-divider reveal section-divider--hero">
+            <span class="section-divider__icon">
+              <svg viewBox="0 0 24 24"><use href="#icon-user"></use></svg>
+            </span>
+            <span class="section-divider__line"></span>
+            <span class="section-divider__icon">
+              <svg viewBox="0 0 24 24"><use href="#icon-network"></use></svg>
+            </span>
+          </div>
+
+          <div class="hero__board">
+            <div class="hero__summary reveal">
+              <p class="hero__intro">
+                Full name: <strong>Shawky Mohamed Shawky Abdelaziz Marya</strong>
+              </p>
+              <p class="hero__copy">
+                Data Analyst and Intelligent Data Science student who combines Data Analytics, Business Intelligence,
+                and SQL with a solid Data Science and Machine Learning foundation to turn raw data into
+                decision-ready insights and clear visualizations.
+              </p>
+              <div class="hero__actions">
+                <a class="button button--solid" href="./assets/My-CV.pdf" download>Download CV</a>
+                <a class="button button--ghost" href="#projects">
+                  View projects
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero__art hero__art--portrait reveal">
+              <div class="hero__spark hero__spark--one"></div>
+              <div class="hero__spark hero__spark--two"></div>
+              <div class="hero__spark hero__spark--three"></div>
+              <div class="hero-portrait">
+                <div class="hero-portrait__frame">
+                  <img class="hero-portrait__image" src="./assets/myphoto.jpeg" alt="Shawky Marya portrait" />
+                </div>
+                <div class="hero-portrait__badge hero-portrait__badge--top">Data Analytics / BI</div>
+                <div class="hero-portrait__badge hero-portrait__badge--bottom">Data Science + ML</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about" data-section="about">
+        <div class="container">
+          <div class="section__heading reveal">
+            <p class="eyebrow">Who I Am</p>
+            <h2 class="section__title">
+              <span>About</span>
+              <span>Me</span>
+            </h2>
+          </div>
+
+          <div class="about__layout">
+            <div class="about__copy reveal">
+              <p>
+                I am an Intelligent Data Science student and Data Analyst with a multidisciplinary foundation across
+                Data Analytics, Business Intelligence, Data Science, Machine Learning, SQL, and databases. I enjoy
+                working with data through its full lifecycle: cleaning, exploration, analysis, visualization, and
+                predictive modeling.
+              </p>
+              <p>
+                My background spans exploratory data analysis, statistics, SQL and relational databases, Power BI and
+                Tableau, Python and Pandas, and machine learning techniques such as regression, classification, and
+                feature engineering. I'm interested in solving real-world problems with data, whether
+                that means a clear visualization, a SQL query, a dashboard, or a predictive model.
+              </p>
+
+              <div class="about__achievement-strip">
+                <span>Data Analyst / Data Science Student</span>
+                <span>Data Analytics &amp; Machine Learning</span>
+                <span>Faculty of Artificial Intelligence &amp; Informatics</span>
+              </div>
+            </div>
+
+            <div class="about__visual reveal">
+              <p class="about__script">Modeling</p>
+              <div class="portrait-card">
+                <div class="portrait-card__figure">
+                  <img class="portrait-card__image" src="./assets/myphoto.jpeg" alt="Shawky Marya portrait" />
+                </div>
+                <div class="portrait-card__panel portrait-card__panel--top">
+                  <p>Thinking</p>
+                  <div class="portrait-card__mini-bars">
+                    <i></i><i></i><i></i><i></i>
+                  </div>
+                </div>
+                <div class="portrait-card__panel portrait-card__panel--bottom">
+                  <div class="portrait-card__mini-screen">
+                    <span class="portrait-card__line portrait-card__line--one"></span>
+                    <span class="portrait-card__line portrait-card__line--two"></span>
+                    <span class="portrait-card__line portrait-card__line--three"></span>
+                  </div>
+                  <p>Data / Models / Insight</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-grid info-grid--single">
+            <article class="info-card reveal">
+              <p class="info-card__label">Education</p>
+              <h3>Horus University - Egypt</h3>
+              <p>Faculty of Artificial Intelligence &amp; Informatics</p>
+              <ul>
+                <li>Major: Intelligent Data Science</li>
+                <li>Expected Graduation: 2028</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services" data-section="services">
+        <div class="container">
+          <div class="section__heading reveal">
+            <p class="eyebrow">What I Offer</p>
+            <h2 class="section__title section__title--single">Services</h2>
+          </div>
+
+          <div class="service-list">
+            <article class="service-card reveal is-open" data-accordion>
+              <button class="service-card__trigger" type="button" aria-expanded="true">
+                <span class="service-card__number">01</span>
+                <span class="service-card__title-wrap">
+                  <strong>Data Analysis &amp; Visualization</strong>
+                  <span>Turning raw, messy datasets into readable stories with solid exploratory analysis.</span>
+                </span>
+                <span class="service-card__icon">
+                  <svg viewBox="0 0 24 24"><use href="#icon-bar"></use></svg>
+                </span>
+              </button>
+              <div class="service-card__panel">
+                <p>
+                  Transforming raw and messy datasets into meaningful insights through Exploratory Data Analysis,
+                  statistical analysis, and effective data visualization using Excel, Power BI, Tableau, Python,
+                  Pandas, and Matplotlib/Seaborn.
+                </p>
+                <div class="tag-list">
+                  <span>EDA</span>
+                  <span>Excel</span>
+                  <span>Power BI</span>
+                  <span>Tableau</span>
+                  <span>Python</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-accordion>
+              <button class="service-card__trigger" type="button" aria-expanded="false">
+                <span class="service-card__number">02</span>
+                <span class="service-card__title-wrap">
+                  <strong>Business Intelligence &amp; Dashboards</strong>
+                  <span>Interactive dashboards and reports that turn data into decisions.</span>
+                </span>
+                <span class="service-card__icon service-card__icon--accent">
+                  <svg viewBox="0 0 24 24"><use href="#icon-network"></use></svg>
+                </span>
+              </button>
+              <div class="service-card__panel">
+                <p>
+                  Building interactive dashboards and reports using Power BI and Tableau to monitor KPIs, identify
+                  trends, and communicate actionable business insights to stakeholders.
+                </p>
+                <div class="tag-list">
+                  <span>Power BI</span>
+                  <span>Tableau</span>
+                  <span>Dashboards</span>
+                  <span>Reporting</span>
+                  <span>KPI Analysis</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-accordion>
+              <button class="service-card__trigger" type="button" aria-expanded="false">
+                <span class="service-card__number">03</span>
+                <span class="service-card__title-wrap">
+                  <strong>Data Preparation &amp; Feature Engineering</strong>
+                  <span>Clean, validated datasets ready for analysis and machine learning.</span>
+                </span>
+                <span class="service-card__icon service-card__icon--rose">
+                  <svg viewBox="0 0 24 24"><use href="#icon-layers"></use></svg>
+                </span>
+              </button>
+              <div class="service-card__panel">
+                <p>
+                  Preparing high-quality datasets through data cleaning, preprocessing, feature engineering,
+                  encoding, scaling, and missing-value treatment, and applying that foundation to predictive
+                  modeling with Ridge Regression, Logistic Regression, KNN, SVM, and XGBoost.
+                </p>
+                <div class="tag-list">
+                  <span>Data Cleaning</span>
+                  <span>Feature Engineering</span>
+                  <span>Scaling</span>
+                  <span>Predictive Modeling</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal" data-accordion>
+              <button class="service-card__trigger" type="button" aria-expanded="false">
+                <span class="service-card__number">04</span>
+                <span class="service-card__title-wrap">
+                  <strong>SQL &amp; Database Solutions</strong>
+                  <span>Relational databases and SQL for extracting and managing data.</span>
+                </span>
+                <span class="service-card__icon service-card__icon--violet">
+                  <svg viewBox="0 0 24 24"><use href="#icon-database"></use></svg>
+                </span>
+              </button>
+              <div class="service-card__panel">
+                <p>
+                  Working with relational databases and SQL to extract, transform, analyze, and manage data,
+                  including SQL Server, advanced SQL, database design, and data warehousing fundamentals.
+                </p>
+                <div class="tag-list">
+                  <span>SQL Server</span>
+                  <span>Advanced SQL</span>
+                  <span>Database Design</span>
+                  <span>Data Warehousing</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects" data-section="projects">
+        <div class="container">
+          <div class="section__heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2 class="section__title">
+              <span>Project</span>
+              <span>Showcase</span>
+            </h2>
+          </div>
+
+          <div class="projects__grid">
+            <article class="project-card project-card--wide reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Featured</p>
+                <h3>House Prices Prediction</h3>
+                <p>
+                  Built a regression model using preprocessing, feature engineering, and Ridge regularization to predict
+                  housing prices with a cleaner and more robust pipeline.
+                </p>
+                <div class="tag-list">
+                  <span>Python</span>
+                  <span>Ridge Regression</span>
+                  <span>Feature Engineering</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/House-Prices-Prediction-ML" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--house">
+                <img class="project-card__image" src="./assets/project-house-prices.svg" alt="House prices prediction illustration" />
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Database Systems</p>
+                <h3>Hotel Reservation System Database</h3>
+                <p>
+                  Designed and implemented a hotel reservation system in MySQL with ER modeling, mapping,
+                  normalization to 3NF, and SQL queries for rooms, reservations, guests, and payments.
+                </p>
+                <div class="tag-list">
+                  <span>MySQL</span>
+                  <span>ER Modeling</span>
+                  <span>3NF</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/hotel-management-system" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--hotel">
+                <img class="project-card__image" src="./assets/project-hotel-database.svg" alt="Hotel reservation database illustration" />
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Classification</p>
+                <h3>Titanic Survival Prediction</h3>
+                <p>Logistic Regression model with SMOTE to address class imbalance and improve survival prediction.</p>
+                <div class="tag-list">
+                  <span>Logistic Regression</span>
+                  <span>SMOTE</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/Titanic-Survival-Prediction-Logistic-Regression" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--titanic">
+                <img class="project-card__image" src="./assets/project-titanic.svg" alt="Titanic survival prediction illustration" />
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Retention</p>
+                <h3>Customer Churn Prediction</h3>
+                <p>Used K-Nearest Neighbors to predict churn and surface customers likely to leave.</p>
+                <div class="tag-list">
+                  <span>KNN</span>
+                  <span>Classification</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/customer-churn-prediction-knn" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--churn">
+                <img class="project-card__image" src="./assets/project-churn.svg" alt="Customer churn prediction illustration" />
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Regression</p>
+                <h3>Car Price Prediction</h3>
+                <p>Built a KNN regressor to estimate car market prices from structured automotive data.</p>
+                <div class="tag-list">
+                  <span>KNN Regressor</span>
+                  <span>Price Estimation</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/car-price-prediction-knn" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--car">
+                <img class="project-card__image" src="./assets/project-car-price.svg" alt="Car price prediction illustration" />
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Income</p>
+                <h3>Adult Income Classification</h3>
+                <p>Predicted income levels above or below 50K using Support Vector Machine on the Adult dataset.</p>
+                <div class="tag-list">
+                  <span>SVM</span>
+                  <span>Classification</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/adult-income-svm-classification" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--income">
+                <img class="project-card__image" src="./assets/project-income.svg" alt="Adult income classification illustration" />
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__copy">
+                <p class="project-card__eyebrow">Marketing</p>
+                <h3>Bank Marketing Prediction</h3>
+                <p>Predicted customer subscription to term deposits using XGBoost with tuning and evaluation.</p>
+                <div class="tag-list">
+                  <span>XGBoost</span>
+                  <span>Boosting</span>
+                </div>
+                <a class="project-card__link" href="https://github.com/shawkymarya/bank-marketing-xgboost" target="_blank" rel="noreferrer">
+                  Open repository
+                  <svg viewBox="0 0 24 24"><use href="#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+              <div class="project-card__visual project-card__visual--bank">
+                <img class="project-card__image" src="./assets/project-bank.svg" alt="Bank marketing prediction illustration" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights section" id="highlights" data-section="highlights">
+        <div class="container">
+          <div class="section__heading reveal">
+            <p class="eyebrow">Milestones</p>
+            <h2 class="section__title section__title--single">Highlights</h2>
+          </div>
+
+          <div class="highlight-grid">
+            <article class="highlight-card reveal">
+              <p class="highlight-card__eyebrow">Certification &amp; Training</p>
+              <h3>Data Analytics &amp; BI (Power BI &amp; Tableau) - ITI</h3>
+              <p>Completed a 144-hour training program at the Information Technology Institute (ITI) covering data warehousing, SQL Server, Power BI, Tableau, Excel, statistics, generative AI, AI agents, and workflow automation.</p>
+            </article>
+
+            <article class="highlight-card reveal">
+              <p class="highlight-card__eyebrow">Certification &amp; Training</p>
+              <h3>AI &amp; ML Diploma - Route Academy</h3>
+              <p>Top performer in a 4-month intensive program covering machine learning, data analysis, visualization, and deep learning fundamentals.</p>
+            </article>
+
+            <article class="highlight-card reveal">
+              <p class="highlight-card__eyebrow">Certification &amp; Training</p>
+              <h3>Introduction to Data Science - Cisco</h3>
+              <p>Completed introductory training covering data analysis, visualization, statistics, and machine learning fundamentals.</p>
+            </article>
+
+            <article class="highlight-card reveal">
+              <p class="highlight-card__eyebrow">Experience &amp; Activities</p>
+              <h3>NASA Space Apps Cairo 2025</h3>
+              <p>Participated in a global hackathon focused on building AI-based solutions with collaborative problem solving under pressure.</p>
+            </article>
+
+            <article class="highlight-card reveal">
+              <p class="highlight-card__eyebrow">Innovation</p>
+              <h3>InnovEgypt Program - ITIDA &amp; TIEC</h3>
+              <p>Completed 45-hour innovation and entrepreneurship training and developed a startup idea based on AI and data science.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills" data-section="skills">
+        <div class="container">
+          <div class="skills__header reveal">
+            <h2>My Skills &amp; Techno</h2>
+            <p>
+              Explore the analytics, business intelligence, database, and data science tools I use to explore data,
+              build dashboards, design SQL systems, and turn numbers into clear, actionable insights.
+            </p>
+          </div>
+
+          <div class="marquee marquee--forward reveal">
+            <div class="marquee__track">
+              <div class="skill-chip skill-chip--blue"><strong>Da</strong><span>Data Analytics</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Sq</strong><span>SQL</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>Pb</strong><span>Power BI</span></div>
+              <div class="skill-chip skill-chip--teal"><strong>Tb</strong><span>Tableau</span></div>
+              <div class="skill-chip skill-chip--cyan"><strong>Xl</strong><span>Excel</span></div>
+              <div class="skill-chip skill-chip--violet"><strong>Dv</strong><span>Data Visualization</span></div>
+              <div class="skill-chip skill-chip--orange"><strong>St</strong><span>Statistics</span></div>
+              <div class="skill-chip skill-chip--rose"><strong>Ss</strong><span>SQL Server</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Db</strong><span>Databases</span></div>
+              <div class="skill-chip skill-chip--teal"><strong>Dw</strong><span>Data Warehousing</span></div>
+              <div class="skill-chip skill-chip--blue"><strong>Py</strong><span>Python</span></div>
+              <div class="skill-chip skill-chip--cyan"><strong>Pd</strong><span>Pandas</span></div>
+              <div class="skill-chip skill-chip--violet"><strong>Ed</strong><span>EDA</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>Dc</strong><span>Data Cleaning</span></div>
+              <div class="skill-chip skill-chip--blue"><strong>Da</strong><span>Data Analytics</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Sq</strong><span>SQL</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>Pb</strong><span>Power BI</span></div>
+              <div class="skill-chip skill-chip--teal"><strong>Tb</strong><span>Tableau</span></div>
+              <div class="skill-chip skill-chip--cyan"><strong>Xl</strong><span>Excel</span></div>
+              <div class="skill-chip skill-chip--violet"><strong>Dv</strong><span>Data Visualization</span></div>
+              <div class="skill-chip skill-chip--orange"><strong>St</strong><span>Statistics</span></div>
+              <div class="skill-chip skill-chip--rose"><strong>Ss</strong><span>SQL Server</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Db</strong><span>Databases</span></div>
+              <div class="skill-chip skill-chip--teal"><strong>Dw</strong><span>Data Warehousing</span></div>
+              <div class="skill-chip skill-chip--blue"><strong>Py</strong><span>Python</span></div>
+              <div class="skill-chip skill-chip--cyan"><strong>Pd</strong><span>Pandas</span></div>
+              <div class="skill-chip skill-chip--violet"><strong>Ed</strong><span>EDA</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>Dc</strong><span>Data Cleaning</span></div>
+            </div>
+          </div>
+
+          <div class="marquee marquee--reverse reveal">
+            <div class="marquee__track">
+              <div class="skill-chip skill-chip--white"><strong>Ml</strong><span>Machine Learning</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Rg</strong><span>Regression</span></div>
+              <div class="skill-chip skill-chip--violet"><strong>Cl</strong><span>Classification</span></div>
+              <div class="skill-chip skill-chip--cyan"><strong>Kn</strong><span>KNN</span></div>
+              <div class="skill-chip skill-chip--rose"><strong>Sv</strong><span>SVM</span></div>
+              <div class="skill-chip skill-chip--orange"><strong>Xg</strong><span>XGBoost</span></div>
+              <div class="skill-chip skill-chip--white"><strong>Fe</strong><span>Feature Engineering</span></div>
+              <div class="skill-chip skill-chip--blue"><strong>Bi</strong><span>Business Intelligence</span></div>
+              <div class="skill-chip skill-chip--teal"><strong>Ai</strong><span>Generative AI</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Ag</strong><span>AI Agents</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>Wa</strong><span>Workflow Automation</span></div>
+              <div class="skill-chip skill-chip--white"><strong>Ja</strong><span>Java</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>C++</strong><span>C++</span></div>
+              <div class="skill-chip skill-chip--rose"><strong>As</strong><span>Advanced SQL</span></div>
+              <div class="skill-chip skill-chip--white"><strong>Ml</strong><span>Machine Learning</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Rg</strong><span>Regression</span></div>
+              <div class="skill-chip skill-chip--violet"><strong>Cl</strong><span>Classification</span></div>
+              <div class="skill-chip skill-chip--cyan"><strong>Kn</strong><span>KNN</span></div>
+              <div class="skill-chip skill-chip--rose"><strong>Sv</strong><span>SVM</span></div>
+              <div class="skill-chip skill-chip--orange"><strong>Xg</strong><span>XGBoost</span></div>
+              <div class="skill-chip skill-chip--white"><strong>Fe</strong><span>Feature Engineering</span></div>
+              <div class="skill-chip skill-chip--blue"><strong>Bi</strong><span>Business Intelligence</span></div>
+              <div class="skill-chip skill-chip--teal"><strong>Ai</strong><span>Generative AI</span></div>
+              <div class="skill-chip skill-chip--green"><strong>Ag</strong><span>AI Agents</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>Wa</strong><span>Workflow Automation</span></div>
+              <div class="skill-chip skill-chip--white"><strong>Ja</strong><span>Java</span></div>
+              <div class="skill-chip skill-chip--amber"><strong>C++</strong><span>C++</span></div>
+              <div class="skill-chip skill-chip--rose"><strong>As</strong><span>Advanced SQL</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" data-section="contact">
+        <div class="container">
+          <div class="contact__frame reveal">
+            <div class="contact__meta">
+              <span>Egypt</span>
+              <span id="local-time">07:27 PM</span>
+            </div>
+
+            <div class="contact__headline">
+              <p>Let's work together!</p>
+              <div class="contact__floaters">
+                <a class="contact-badge contact-badge--rose" href="mailto:shawkymmarya4@gmail.com">Let's chat</a>
+                <a class="contact-badge contact-badge--blue" href="mailto:shawkymmarya4@gmail.com">Reach out</a>
+                <a class="contact-badge contact-badge--yellow" href="mailto:shawkymmarya4@gmail.com">Send a message</a>
+              </div>
+            </div>
+
+            <div class="contact__details">
+              <a href="tel:+201017519107">
+                <svg viewBox="0 0 24 24"><use href="#icon-phone"></use></svg>
+                <span>+20 101 751 9107</span>
+              </a>
+              <a href="mailto:shawkymmarya4@gmail.com">
+                <svg viewBox="0 0 24 24"><use href="#icon-mail"></use></svg>
+                <span>shawkymmarya4@gmail.com</span>
+              </a>
+              <a href="https://github.com/shawkymarya" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24"><use href="#icon-github"></use></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/shawky-marya-bb3352352" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24"><use href="#icon-linkedin"></use></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <footer class="footer reveal">
+            <p>Arabic: Native / English: Intermediate</p>
+            <p>2026 (c) Shawky Marya</p>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

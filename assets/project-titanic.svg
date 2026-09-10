@@ -1,0 +1,38 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="42" fill="#07101A"/>
+  <rect x="44" y="44" width="1112" height="672" rx="34" fill="url(#bg)"/>
+  <circle cx="934" cy="172" r="132" fill="url(#glow)" opacity="0.84"/>
+  <rect x="86" y="86" width="296" height="74" rx="22" fill="#102131" stroke="#1A3B54"/>
+  <text x="126" y="134" fill="#4FC6FF" font-size="40" font-family="Arial, sans-serif" font-weight="700">Titanic ML</text>
+  <circle cx="244" cy="224" r="58" fill="#D8EBF8" opacity="0.95"/>
+  <circle cx="244" cy="224" r="74" stroke="#17314A" stroke-width="18"/>
+  <path d="M140 516H780V620H140V516Z" fill="#0D3756"/>
+  <path d="M140 560C244 530 324 590 430 558C538 524 612 606 716 578C756 568 790 566 820 566V622H140V560Z" fill="#13476E"/>
+  <path d="M268 440H678L758 486H346L268 440Z" fill="#F0F4F8"/>
+  <path d="M346 486H758L712 538H392L346 486Z" fill="#0F1622"/>
+  <rect x="452" y="378" width="26" height="62" rx="12" fill="#F0F4F8"/>
+  <rect x="518" y="346" width="26" height="94" rx="12" fill="#F0F4F8"/>
+  <rect x="586" y="364" width="26" height="76" rx="12" fill="#F0F4F8"/>
+  <rect x="838" y="194" width="232" height="340" rx="28" fill="#0B1825" stroke="#1D3953"/>
+  <text x="884" y="246" fill="#F7FCFF" font-size="26" font-family="Arial, sans-serif" font-weight="700">Survival Score</text>
+  <rect x="880" y="282" width="146" height="18" rx="9" fill="#17354C"/>
+  <rect x="880" y="316" width="102" height="18" rx="9" fill="#205575"/>
+  <rect x="880" y="350" width="172" height="18" rx="9" fill="#4FC6FF"/>
+  <rect x="880" y="406" width="154" height="88" rx="22" fill="#10283C" stroke="#264A69"/>
+  <text x="914" y="458" fill="#FFD4E8" font-size="28" font-family="Arial, sans-serif" font-weight="700">SMOTE</text>
+  <path d="M836 580H1070" stroke="#2A4E6D" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="892" cy="580" r="12" fill="#4FC6FF"/>
+  <circle cx="1012" cy="580" r="12" fill="#F53A94"/>
+  <rect x="744" y="104" width="332" height="66" rx="20" fill="#12304B" stroke="#214C71"/>
+  <text x="784" y="146" fill="#FDFDFE" font-size="28" font-family="Arial, sans-serif" font-weight="700">Logistic Regression + SMOTE</text>
+  <defs>
+    <linearGradient id="bg" x1="100" y1="80" x2="1090" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091B2D"/>
+      <stop offset="1" stop-color="#09111A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(934 172) rotate(90) scale(132)">
+      <stop stop-color="#6F8FFF" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#6F8FFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
